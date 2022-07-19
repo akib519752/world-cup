@@ -92,7 +92,7 @@ body {
     margin-left: 30px;
     font-size: 20px;
     font-weight: 500;
-    padding-top: 5px;
+    padding: 20px 0 1px 0;
 
     border-radius: 10px;
 
@@ -100,6 +100,7 @@ body {
 
 .red-match {
     background-color: red;
+    color: white;
 }
 
 .transfer-area {
@@ -153,4 +154,159 @@ body {
 .fa-brands {
     margin: 20px;
     color: gray;
+}
+
+.view-button {
+    border: none;
+    background-color: red;
+    height: 40px;
+    width: 120px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+/* Second Website */
+.flag-part {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.second-part {
+    border: 1px solid rgb(230, 224, 224);
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+.date {
+    color: gray;
+}
+
+/* Responsive for mobile */
+@media only screen and (max-width:600px) {
+    .top-banner {
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .list {
+        flex-direction: column;
+    }
+
+    .show {
+        font-size: 40px;
+        font-weight: 300;
+    }
+
+    .text-area {
+        text-align: center;
+        padding-left: 20px;
+    }
+
+    .player,
+    .player-area {
+        width: 100%;
+    }
+
+    .upcoming {
+        background-color: white;
+    }
+
+    .grid-area {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .last-area {
+        height: 600px;
+        width: 100%;
+    }
+
+    .contact-link {
+        width: 100%;
+    }
+
+    .contact-area {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+    }
+
+    .view-button {
+        display: none;
+    }
+}
+
+
+
+/* Responsive For Tablet */
+
+@media only screen and (min-width:601px) and (max-width:900px) {
+    .top-banner {
+        height: 100%;
+        width: 100%;
+    }
+
+    .show {
+        font-size: 50px;
+        font-weight: 400;
+    }
+
+    .player,
+    .player-area {
+        width: 100%;
+    }
+
+    .list {
+        flex-direction: column;
+    }
+
+    .upcoming {
+        background-color: white;
+
+        display: flex;
+        flex-direction: row;
+        height: 300px;
+        width: 100%;
+
+        justify-content: space-evenly;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .grid-area {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+
+    .hide-content {
+        display: none;
+    }
+
+
+
+    .last-area {
+        height: 500px;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .view-button {
+        margin-top: 50px;
+        margin-left: 320px;
+    }
+}
+
+
+@media only screen and (min-width:901px) and (max-width:1440px) {
+    .view-button {
+        display: none;
+    }
 }
