@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-banner {
+    display: flex;
+    text-align: start;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 1321px;
+    height: 646px;
+    margin-left: 3%;
+    border-radius: 30px;
+    margin-top: 50px;
+
+}
+
+.show {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.text-area {
+    width: 60%;
+    padding: 111px 0 111px 106px;
+}
+
+.player-area {
+    width: 60%;
+}
+
+.player {
+    height: 613px;
+    width: 581px;
+    padding-top: 40px;
+}
+
+.watch-live {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    width: 187px;
+    height: 56px;
+    padding: 16px 25px;
+    border-radius: 5px;
+}
+
+.fa-angle-right {
+    margin-left: 5px;
+}
+
+
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.list-match {
+    width: 30%;
+}
+
+.grid-area {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+
+.upcoming {
+    display: flex;
+    flex-direction: column;
+    height: 312px;
+    width: 312px;
+    background-color: black;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.match {
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    height: 64px;
+    width: 252px;
+    background-color: white;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 5px;
+
+    border-radius: 10px;
+
+}
+
+.red-match {
+    background-color: red;
+}
+
+.transfer-area {
+    /* box-shadow: 2px 5px rgb(235, 228, 228); */
+    border: 1px solid rgb(238, 232, 232);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.transfer {
+    border: 1px solid black;
+    height: 32px;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.font-area {
+    display: flex;
+    justify-content: space-around;
+}
+
+.last-area {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 444px;
+    width: 1400px;
+}
+
+.last-area h1 {
+    padding-top: 120px;
+
+
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+.contact-area {
+    color: gray;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-link {
+    margin-top: 20px;
+}
+
+.fa-brands {
+    margin: 20px;
+    color: gray;
+}
