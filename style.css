@@ -1,9 +1,11 @@
+/* imported google font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Banner Area */
 .top-banner {
     display: flex;
     text-align: start;
@@ -32,11 +34,14 @@ body {
     width: 60%;
 }
 
+/* player image  */
+
 .player {
     height: 613px;
     width: 581px;
     padding-top: 40px;
 }
+
 
 .watch-live {
     text-decoration: none;
@@ -63,6 +68,8 @@ body {
 .list-match {
     width: 30%;
 }
+
+/* blog part of the world cup */
 
 .grid-area {
     width: 70%;
@@ -123,6 +130,8 @@ body {
     display: flex;
     justify-content: space-around;
 }
+
+/* footer part */
 
 .last-area {
     background-color: black;
@@ -304,8 +313,9 @@ body {
     }
 }
 
+/* Responsive for Max-size device */
 
-@media only screen and (min-width:901px) and (max-width:1440px) {
+@media only screen and (min-width:901px) and (max-width:1800px) {
     .view-button {
         display: none;
     }
